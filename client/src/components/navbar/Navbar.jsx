@@ -10,10 +10,10 @@ function Navbar() {
           Real Estate <BsHouseDoor/>
         </Link>
         <ul className={classes.center}>
-          <li className={classes.listItem}></li>
-          <li className={classes.listItem}></li>
-          <li className={classes.listItem}></li>
-          <li className={classes.listItem}></li>
+          <li className={classes.listItem}>Home</li>
+          <li className={classes.listItem}>About</li>
+          <li className={classes.listItem}>Featured</li>
+          <li className={classes.listItem}>Contact</li>
         </ul>
         <div className={classes.right}>
           <Link to='/signup'>Sign Up</Link>
