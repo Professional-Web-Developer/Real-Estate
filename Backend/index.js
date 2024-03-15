@@ -11,7 +11,7 @@ const app=express()
 //mongodb connect
 mongoose.set('strictQuery',false)
 mongoose.connect(process.env.MONGO_URL)
-
+app.use('/images',express.static('public/images'))
 //routes and middlewares
 app.use(cors())
 app.use(express.json())
