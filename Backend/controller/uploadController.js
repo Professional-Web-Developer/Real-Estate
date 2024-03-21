@@ -18,7 +18,7 @@ const upload=multer({
     storage
 })
 //upload.single("image") is going to check in the req.body for the req.body.image
-uploadcontroller.post('/upload',upload.single('image'),async(req,res)=>{
+uploadcontroller.post('/image',upload.single('image'),async(req,res)=>{
     try{
         return res.status(200).send({message:"Image uploaded"});
     }

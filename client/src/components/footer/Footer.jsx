@@ -21,7 +21,7 @@ function Footer() {
           <h2>Location</h2>
           <span>Continent:Asia</span>
           <span>Country:India</span>
-          <span>Current Location:Near Kongu Engineering College,Perundurai</span>
+          <span>Current Location:Erode</span>
         </div>
       </div>
     </footer>

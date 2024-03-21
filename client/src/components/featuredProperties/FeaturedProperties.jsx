@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import { useState } from 'react'
-import classes from './featuredProperties.module.css'
+import classes from '../featuredProperties/FeaturedProperties.module.css'
 import { request } from '../../util/fetchAPI'
 import {Link} from 'react-router-dom'
 import img from '../../assets/estate3.jpg'

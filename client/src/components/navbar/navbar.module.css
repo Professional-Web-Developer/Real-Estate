@@ -68,3 +68,59 @@ font-size: 18px;
 cursor: pointer;
 text-decoration: none;
 }
+.right>.list{
+    text-decoration: none;
+    padding: 0.25rem 0.5rem;
+    background-color: #2500ac;
+    color: #fff;
+    border-radius: 12px;
+    transition: 150ms all;
+    cursor: pointer;
+    
+}
+.right>.list:hover{
+   color: #efefef;
+   background-color: #340bc8; 
+}
+/*List property*/
+.listpropertyForm{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0,0,0,0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+
+}
+.listpropertywrapper{
+    position: relative;
+    background-color: #fff;
+    height: 90vh;
+    width: 35vw;
+    border-radius: 20px;
+}
+.listpropertywrapper>h2{
+text-align: center;
+margin: 2.5rem 0;
+margin-bottom: 3.5rem;
+
+}
+.listpropertywrapper>form>div>label{
+   display: flex;
+   align-items: center;
+   gap: 12px;
+   font-size: 18px;
+   margin-right: 1rem; 
+}
+.listpropertywrapper>button{
+   margin-top: 0.5rem; 
+}
+.removeIcon{
+    position: absolute;
+    top :1rem;
+    right: 1rem;
+}
