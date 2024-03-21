@@ -7,7 +7,8 @@
     min-width: 1180px;
     height: 100%;
     margin: 0 auto;
-    
+
+
 }
 .titles{
     display: flex;
@@ -15,7 +16,6 @@
     flex-direction: column;
     gap:0.5rem;
 
-}
 .titles>h5{
     color: #777;
     font-size: 18px;
@@ -99,4 +99,5 @@
     max-width: 250px;
     font-size: 18px;
     color: #222;
+}
 }
